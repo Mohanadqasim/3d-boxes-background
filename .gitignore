@@ -1,11 +1,18 @@
 # Terraform
 .terraform/
+**/.terraform/*
 *.tfstate
 *.tfstate.*
+crash.log
 .terraform.lock.hcl
 
-# Sensitive keys
+
+# keys
 *.pem
 
 # OS
 .DS_Store
+
+
+
+
